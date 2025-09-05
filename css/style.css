@@ -1,0 +1,30 @@
+.slider {
+  max-width: 300px;
+}
+
+.slider__input {
+  width: 100%;
+}
+
+.slider__image {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  transition: all 1s;
+}
+
+#box {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  position: absolute;
+}
+
+#buttonStart {
+  padding: 8px;
+  background-color: black;
+  transition: transform 0.1s;
+  color: white;
+  margin-left: 50px;
+  border-radius: 10px;
+}
